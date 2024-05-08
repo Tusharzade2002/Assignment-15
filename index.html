@@ -25,20 +25,103 @@
             font-style: unset;
             background-color: rgb(229, 119, 119);
         }
+      
+        .card{
+            height: 400px ;
+            width: 330px;
+            display: inline-block;
+            margin: 20px;
+            border-radius: 1rem;
+            align-items: center;
+            background-color:rgb(238,238,228);
+            box-shadow: 0px 0px 17px 13px rgba(0,0,0,0.1);
+        }
+        .course-name{
+            text-align: center;
+        }
+        .text{
+            font-family:monospace;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px 10px;
+        }
+        .date{
+            margin: 8px 10px;
+            font-family:  'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+        .icon1{
+            height: 17px;
+            margin-right: 5px;
+            text-align: center;
+        }
+        .clockimg{
+            height: 20px;
+        }
+        .time{
+            font-size: 22px;
+            font-family: 'Lucida Sans';
+            text-align: center;
+        }
+        .btn{
+            border-radius: 25px;
+            border: none;
+            text-align: center;
+            width: 80px;
+            height: 30px;
+            font-size: 15px;
+            background-color: lightsteelblue;
+        }
+        .online-img{
+            height: 10px;
+            margin: 2px 5px;
+        }
+        .time-btn{
+            margin: 2px 15px;
+        }
     </style>
 </head>
 <body>
     <h1><span class="hding1">Our Most </span><span class="hding2">Popular Courses</span></h1>
-    <div>
+    <div class="main">
         <div class="card , card1" >
-     
+           <img src=""/>
+           <h3 class="course-name">Internship Cohort Program 9.0</h3>
+           <p class="text">Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀</p>
+           <h2 class="date"><img class="icon1" src="./schedule.png"/>Started from 4th June 2024</h2>
+           <div class="time-btn">
+             <span class="time"><img class="clockimg" src="./clock.png"/>6:00 PM - 7:00PM </span>
+             <button class="btn"><img class="online-img" src="./online-test.png"/>Online</button>
+           </div>
+           <hr>
         </div>
+
         <div class="card , card2"> 
+            <img src=""/>
+            <h3 class="course-name">Modern Android Development 1.0</h3>
+            <p class="text">Designed for our students of ICP course. Add  to stay ahead in the competition.</p>
+            <h2 class="date"><img class="icon1" src="./schedule.png"/>Starting from 1st July 2024</h2>
+            <div class="time-btn">
+              <span class="time"><img class="clockimg" src="./clock.png"/>7:00 PM - 8:00PM </span>
+              <button class="btn"><img class="online-img" src="./online-test.png"/>Online</button>
+            </div>
+            <hr>
 
         </div>
+
         <div class="card , card3">
+            <img src=""/>
+            <h3 class="course-name">Python Programming</h3>
+            <p class="text">Learn Python Programming from Scratch and Master the concepts of Python Programming</p>
+            <h2 class="date"><img class="icon1" src="./schedule.png"/>Starting from 1st July 2024</h2>
+            <div class="time-btn">
+             <span class="time"><img class="clockimg" src="./clock.png"/>8:00 PM - 9:00PM </span>
+             <button class="btn"><img class="online-img" src="./online-test.png"/>Online</button>
+           </div>
+           <hr>
 
         </div>
+      
     </div>
 </body>
 </html>
